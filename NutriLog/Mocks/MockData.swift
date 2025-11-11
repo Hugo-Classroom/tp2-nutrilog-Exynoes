@@ -3,207 +3,207 @@ import Foundation
 struct MockData {
     // 🥩 Protéines
     static let proteinFood = Food(
-        name: "Poitrine de poulet",
+        name: NSLocalizedString("KeyFoodChickenBreast", comment: ""),
         calories: 165,
         protein: 31,
         carbs: 0,
         fat: 3.6,
-        desc: "Viande maigre, riche en protéines."
+        desc: NSLocalizedString("KeyFoodChickenBreastDesc", comment: "")
     )
     static let boiledEgg = Food(
-        name: "Oeuf (bouilli)",
+        name: NSLocalizedString("KeyBoiledEgg", comment: ""),
         calories: 155,
         protein: 13,
         carbs: 1.1,
         fat: 11,
-        desc: "Riche en protéines et en nutriments essentiels."
+        desc: NSLocalizedString("KeyBoiledEggDesc", comment: "")
     )
     static let grilledSalmon = Food(
-        name: "Saumon (grillé)",
+        name: NSLocalizedString("KeyGrilledSalmon", comment: ""),
         calories: 208,
         protein: 20,
         carbs: 0,
         fat: 13,
-        desc: "Riche en oméga‑3 et protéines."
+        desc: NSLocalizedString("KeyGrilledSalmonDesc", comment: "")
     )
     static let firmTofu = Food(
-        name: "Tofu (ferme)",
+        name: NSLocalizedString("KeyFirmTofu", comment: ""),
         calories: 76,
         protein: 8,
         carbs: 1.9,
         fat: 4.8,
-        desc: "Alternative végétale riche en protéines."
+        desc: NSLocalizedString("KeyFirmTofuDesc", comment: "")
     )
     static let leanBeef = Food(
-        name: "Boeuf haché maigre",
+        name: NSLocalizedString("KeyLeanBeef", comment: ""),
         calories: 250,
         protein: 26,
         carbs: 0,
         fat: 17,
-        desc: "Source de protéines et de fer."
+        desc: NSLocalizedString("KeyLeanBeefDesc", comment: "")
     )
 
     // 🍚 Féculents
     static let rice = Food(
-        name: "Riz (cuit)",
+        name: NSLocalizedString("KeyRice", comment: ""),
         calories: 130,
         protein: 2.7,
         carbs: 28,
         fat: 0.3,
-        desc: "Source d’énergie à digestion lente."
+        desc: NSLocalizedString("KeyRiceDesc", comment: "")
     )
     static let pasta = Food(
-        name: "Pâtes (cuites)",
+        name: NSLocalizedString("KeyPasta", comment: ""),
         calories: 131,
         protein: 5,
         carbs: 25,
         fat: 1.1,
-        desc: "Féculent classique, riche en glucides."
+        desc: NSLocalizedString("KeyPastaDesc", comment: "")
     )
     static let wholeWheatBread = Food(
-        name: "Pain de blé entier",
+        name: NSLocalizedString("KeyWholeWheatBread", comment: ""),
         calories: 247,
         protein: 13,
         carbs: 41,
         fat: 4.2,
-        desc: "Fibre et énergie durable."
+        desc: NSLocalizedString("KeyWholeWheatBreadDesc", comment: "")
     )
     static let oatmeal = Food(
-        name: "Gruau (cuit)",
+        name: NSLocalizedString("KeyOatmeal", comment: ""),
         calories: 71,
         protein: 2.5,
         carbs: 12,
         fat: 1.4,
-        desc: "Petit-déjeuner riche en fibres."
+        desc: NSLocalizedString("KeyOatmealDesc", comment: "")
     )
     static let sweetPotato = Food(
-        name: "Patate douce",
+        name: NSLocalizedString("KeySweetPotato", comment: ""),
         calories: 86,
         protein: 1.6,
         carbs: 20,
         fat: 0.1,
-        desc: "Riche en vitamines et fibres."
+        desc: NSLocalizedString("KeySweetPotatoDesc", comment: "")
     )
 
     // 🍎 Fruits
     static let apple = Food(
-        name: "Pomme",
+        name: NSLocalizedString("KeyApple", comment: ""),
         calories: 52,
         protein: 0.3,
         carbs: 14,
         fat: 0.2,
-        desc: "Fruit frais, riche en fibres."
+        desc: NSLocalizedString("KeyAppleDesc", comment: "")
     )
     static let banana = Food(
-        name: "Banane",
+        name: NSLocalizedString("KeyBanana", comment: ""),
         calories: 89,
         protein: 1.1,
         carbs: 23,
         fat: 0.3,
-        desc: "Riche en potassium et glucides rapides."
+        desc: NSLocalizedString("KeyBananaDesc", comment: "")
     )
     static let orange = Food(
-        name: "Orange",
+        name: NSLocalizedString("KeyOrange", comment: ""),
         calories: 47,
         protein: 0.9,
         carbs: 12,
         fat: 0.1,
-        desc: "Source de vitamine C."
+        desc: NSLocalizedString("KeyOrangeDesc", comment: "")
     )
     static let strawberries = Food(
-        name: "Fraises",
+        name: NSLocalizedString("KeyStrawberries", comment: ""),
         calories: 32,
         protein: 0.7,
         carbs: 7.7,
         fat: 0.3,
-        desc: "Fruits rouges riches en antioxydants."
+        desc: NSLocalizedString("KeyStrawberriesDesc", comment: "")
     )
     static let avocado = Food(
-        name: "Avocat",
+        name: NSLocalizedString("KeyAvocado", comment: ""),
         calories: 160,
         protein: 2,
         carbs: 9,
         fat: 15,
-        desc: "Riche en bons lipides et fibres."
+        desc: NSLocalizedString("KeyAvocadoDesc", comment: "")
     )
 
     // 🥦 Légumes
     static let broccoli = Food(
-        name: "Brocoli",
+        name: NSLocalizedString("KeyBroccoli", comment: ""),
         calories: 34,
         protein: 2.8,
         carbs: 7,
         fat: 0.4,
-        desc: "Légume vert riche en vitamines et fibres."
+        desc: NSLocalizedString("KeyBroccoliDesc", comment: "")
     )
     static let carrots = Food(
-        name: "Carottes",
+        name: NSLocalizedString("KeyCarrot", comment: ""),
         calories: 41,
         protein: 0.9,
         carbs: 10,
         fat: 0.2,
-        desc: "Riche en bêta-carotène."
+        desc: NSLocalizedString("KeyCarrotDesc", comment: "")
     )
     static let spinach = Food(
-        name: "Épinards",
+        name: NSLocalizedString("KeySpinach", comment: ""),
         calories: 23,
         protein: 2.9,
         carbs: 3.6,
         fat: 0.4,
-        desc: "Légume vert riche en fer et vitamines."
+        desc: NSLocalizedString("KeySpinachDesc", comment: "")
     )
     static let tomato = Food(
-        name: "Tomate",
+        name: NSLocalizedString("KeyTomato", comment: ""),
         calories: 18,
         protein: 0.9,
         carbs: 3.9,
         fat: 0.2,
-        desc: "Riche en antioxydants et vitamines."
+        desc: NSLocalizedString("KeyTomatoDesc", comment: "")
     )
 
     // 🍫 Collations / Autres
     static let almonds = Food(
-        name: "Amandes",
+        name: NSLocalizedString("KeyAlmonds", comment: ""),
         calories: 579,
         protein: 21,
         carbs: 22,
         fat: 50,
-        desc: "Noix riche en bons lipides et protéines."
+        desc: NSLocalizedString("KeyAlmondsDesc", comment: "")
     )
     static let peanutButter = Food(
-        name: "Beurre d’arachide",
+        name: NSLocalizedString("KeyPeanutButter", comment: ""),
         calories: 588,
         protein: 25,
         carbs: 20,
         fat: 50,
-        desc: "Riche en protéines et matières grasses."
+        desc: NSLocalizedString("KeyPeanutButterDesc", comment: "")
     )
     static let greekYogurt = Food(
-        name: "Yogourt grec (nature)",
+        name: NSLocalizedString("KeyGreekYogurt", comment: ""),
         calories: 59,
         protein: 10,
         carbs: 3.6,
         fat: 0.4,
-        desc: "Riche en protéines et faible en matières grasses."
+        desc: NSLocalizedString("KeyGreekYogurtDesc", comment: "")
     )
     static let cheddar = Food(
-        name: "Fromage cheddar",
+        name: NSLocalizedString("KeyCheddar", comment: ""),
         calories: 403,
         protein: 25,
         carbs: 1.3,
         fat: 33,
-        desc: "Riche en protéines et calcium."
+        desc: NSLocalizedString("KeyCheddarDesc", comment: "")
     )
     static let darkChocolate = Food(
-        name: "Chocolat noir (70%)",
+        name: NSLocalizedString("KeyDarkChocolate", comment: ""),
         calories: 598,
         protein: 7.8,
         carbs: 46,
         fat: 42,
-        desc: "Riche en antioxydants et matières grasses."
+        desc: NSLocalizedString("KeyDarkChocolateDesc", comment: "")
     )
 
-    // Collection complète
+
     static let foods = [
         proteinFood, boiledEgg, grilledSalmon, firmTofu, leanBeef,
         rice, pasta, wholeWheatBread, oatmeal, sweetPotato,
